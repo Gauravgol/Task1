@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-mongoose.connect('mongodb+srv://Gaurav:SIw1X0RdfhZAhZS9@cluster0.epwf7bv.mongodb.net/mydb?retryWrites=true&w=majority&appName=AtlasApp', {
+mongoose.connect('Enter your save', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
